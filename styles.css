@@ -39,55 +39,95 @@ Setjum inn „reset“ sem fjarlægir margin og padding af öllu
   
   /* Uppsetning á síðu—layout */
   .content {
+    align-items:flex;
     /* Lætur börn .content raða sér með _flexbox_ */
     display: flex;
     /* röðun sé í dálkaröð (niður) */
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
   
   }
    header {
     background-color:#00bfff;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 4rem;
+    
+  
   }
   header h1 {
-    background-color:#00bfff;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+   
+  }
+
+  
+  <a> {
+  color: #0000000 ;
 
   }
   
   .content > nav {
+    height: 3rem;
+    
   }
   
   .content > main {
     /* Lætur <main> taka allt auka pláss sem er í boði */
     flex: 1;
+    height: 3rem;
+    
   }
   
   .content > footer {
     background-color: #00bfff;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 3rem;
+    bo
   }
   
   /* almennar skilgreiningar */
   
   h1, h2 {
     /* TODO setja almennar skilgreinar fyrir fyrirsagnir */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  
   }
   
   a {
     /* TODO setja almennar skilgreinar fyrir tengla */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  
   }
   
   /* nav — valmynd */
   
   nav ul {
+
     /* TODO */
-  
+  margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+
   }
   
   nav ul li {
     display: inline;
     margin: 0 auto;
-    padding: 0 auto;
+    max-width: 1200px;
     width: 100%;
     font-size: x-large;
+
   }
   
   /* TODO */
@@ -100,7 +140,13 @@ Setjum inn „reset“ sem fjarlægir margin og padding af öllu
   /* töflur */
   
   table {
-    border-spacing: 0;
+    border-spacing: 1/4;
+    border-color:#00bfff;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    ;
+    
   }
   
   /* TODO */
