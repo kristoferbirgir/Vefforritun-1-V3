@@ -47,9 +47,6 @@ Setjum inn „reset“ sem fjarlægir margin og padding af öllu
     display: flex;
     /* röðun sé í dálkaröð (niður) */
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
     position:relative;
     min-height: 100vh;
   
