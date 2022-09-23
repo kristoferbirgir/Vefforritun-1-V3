@@ -87,14 +87,14 @@ Setjum inn „reset“ sem fjarlægir margin og padding af öllu
     
 
   }
-  button{ 
+  form button {
+    padding: 0.25rem;
     background-color: #afebff;
-    border-color: #00bfff;
+    border: 1px solid #00bfff;
     border-radius: 6px;
-
-    
-
   }
+
+  
 
   
   a {
